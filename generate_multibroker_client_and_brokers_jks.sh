@@ -9,10 +9,10 @@ GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
 # jks passwords to access contents
-PASSWORD_CLIENT="testkafkaclient"
-PASSWORD_SERVER="testkafkaserver"
+PASSWORD_CLIENT="confluent"
+PASSWORD_SERVER="confluent"
 
-PASSWORD_CA="testca"
+PASSWORD_CA="confluent"
 
 # name of files
 CLIENT_KEYSTORE_JKS="kafka.client.keystore.jks"
@@ -27,11 +27,11 @@ VALIDITY=7300
 # minimum rsa size is 1024 or you might get an error from JCE
 KEYLEN=1024
 
-CLIENT_HOSTNAME="RACK5_SLOT5"
+CLIENT_HOSTNAME="kafka"
 # Replace with your broker external fqdn
-SERVER_HOSTNAME1="TB-F1-S1"
-SERVER_HOSTNAME2="TB-F1-S2"
-SERVER_HOSTNAME3="TB-F1-S3"
+SERVER_HOSTNAME1="kafka-1"
+SERVER_HOSTNAME2="kafka-2"
+SERVER_HOSTNAME3="kafka-3"
 
 SERVER_CA_CERT="ca-hw-cert"
 SERVER_CA_KEY="ca-hw-key"
